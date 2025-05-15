@@ -21,6 +21,13 @@ This project demonstrates a basic GraphQL server using Go and the gqlgen library
     ```bash
     go run github.com/99designs/gqlgen init
     ```
+    Modify `gqlgen.yml` to enable federation:
+
+    ```yaml
+    federation:
+        filename: graph/federation.go
+        package: graph
+    ```
 4.  For federation details, visit:
 
     ```
@@ -35,3 +42,18 @@ This project demonstrates a basic GraphQL server using Go and the gqlgen library
 
 6.  Create `index.js` (see the URL above for the file content).
 This will set up the basic project structure and generate the necessary files for your GraphQL server.
+or refer the below index.js
+```
+https://github.com/chinmay-sawant/Go-Apollo-Graphql-Example/blob/master/index.js
+```
+7.  Run the Apollo Gateway:
+
+    ```bash
+    node index.js
+    ```
+
+8.  Access the Apollo Router at:
+
+    ```
+    http://localhost:4000/
+    ```
