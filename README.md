@@ -7,7 +7,7 @@ This project demonstrates a basic GraphQL server using Go and the gqlgen library
 1.  Clone the repository:
 
     ```bash
-    git clone github.com/chinmay-sawant/apolloexample
+    git clone github.com/chinmay-sawant/Go-Apollo-Graphql-Example
     ```
 
 2.  Install gqlgen:
