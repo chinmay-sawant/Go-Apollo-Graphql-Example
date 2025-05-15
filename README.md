@@ -59,3 +59,7 @@ https://github.com/chinmay-sawant/Go-Apollo-Graphql-Example/blob/master/index.js
     ```
     http://localhost:4000/
     ```
+
+    Here is a screenshot of the Apollo Graph in the browser:
+
+    ![Apollo Graph](https://github.com/chinmay-sawant/Go-Apollo-Graphql-Example/blob/master/Screenshots/Apollo_Graph.png)
